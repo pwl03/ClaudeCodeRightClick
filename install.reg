@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\ClaudeCodeHere]
+@="Claude Code Here"
+"Icon"="cmd.exe"
+
+[HKEY_CLASSES_ROOT\Directory\shell\ClaudeCodeHere\command]
+@="cmd.exe /s /k \"pushd \"%V\" && claude\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\ClaudeCodeHere]
+@="Claude Code Here"
+"Icon"="cmd.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\ClaudeCodeHere\command]
+@="cmd.exe /s /k \"pushd \"%V\" && claude\""
